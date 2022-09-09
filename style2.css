@@ -1,0 +1,84 @@
+h1 {
+    color:cornflowerblue
+}
+h2 {
+    color:blueviolet;
+  }
+  
+  h3 {
+    color:indianred;
+  }
+  
+  p {
+    color:rgb(46, 0, 154);
+  }
+
+  .clase {
+    background-color: black;
+    color:rgb(162, 255, 0)
+  }
+
+  .samurai {
+    width: 150px;
+
+  }
+
+  .Aqua {
+    width: 250px;
+    border-width: 3px;
+    border-color: aquamarine;
+    border-style: dashed dotted double ridge;
+  }
+
+  .Darkness {
+    width: 200px;
+    border-radius: 20%;
+  }
+
+  div {
+    color: rgb(254, 73, 33);
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 100;
+    
+  }
+  
+  .dentro_div {
+    color: rgb(254, 73, 33);
+  }
+
+  #id {
+    font-size: 40;
+    color: darkslateblue;
+    font-family: monospace;
+    background-color: bisque;
+  }
+
+  #Megumin {
+    width: 200px;
+    padding: 20px;
+    border: 20px;
+    border-color: aqua;
+    border-style: solid;
+    background-color: blueviolet;
+  }
+
+  #Yunyun {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 40px;
+    border: 20px;
+    border-color: rgb(146, 122, 254);
+    border-style: solid;
+    background-color: rgb(9, 4, 13);
+  }
+
+  # {
+    border-color: aqua;
+    border-width: 200px;
+    background-color: ;
+    padding: 50px, 100px, 50px, 100px;
+    margin: 200px, 100px, 50px, 300px;
+  }

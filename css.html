@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Snippet&display=swap" rel="stylesheet">
+    <title>CSS</title>
+</head>
+<body>
+  <h1 style="color:rgb(118, 94, 252)">Css</h1>
+  <h2></h2>
+    <p>Es un lenguaje basado en reglas las cuales determinaran el estilo que se aplicaran a un elemento o un grupo de elementos.</p>
+    <p>Existen 3 opciones para escribir el conjunto de reglas en css</p>
+    <ol>
+      <li>Estilos de línea</li> <p>El estilo se añade directo a la etiqueta de apertura del elemento html</p>
+      <h2 style="color:lightskyblue ">Curso CSS</h2>
+      <li>Etiqueta style</li> <p>Se añade en el "head" y dentro de style se escribe el estilo, este se aplicara a todas las etiquetas que seleccionemos, por ejemplo todas las h3, h2, etc</p><br>
+      <p>La sintaxis es la siguiente: <br> </p>
+      <p>head</p>
+      <p>style</p>
+      <p> h2 {</p>
+        <p>color: blue</p>
+        <p>}</p>
+        <p>/style</p>
+
+      <li>Archivo .css</li>
+      <p>Se crea un archivo de tipo .css, el cúal se va a vincular al archivo html, esta opción es mucho más recomendada</p>
+      <p>Para vincular el archivo html al css, se emplea la etiqueta link href="archivo conexión" rel="stylesheet"(Esto indica que es una hoja de estilo) </p>
+
+    </ol>
+
+    <h2>Selectores</h2>
+    <p>Existen diferentes tipos de selectores</p>
+    <ul>
+      <li><strong>Selector de tipo</li></strong>
+      <p>Selecciona todos los elementos que coinciden con el nombre del elemento especificado</p>
+      <p>Por ejemplo, si escribirmo h3, se aplicara a todos los elementos h3: </p>
+
+      <li class="clase">selector de clase</li> <p>Selecciona todos los elementos que tienen el atributo "class" especificado</p>
+        <p>Para establecer la clase, simplemente se añade después de la etiqueta como "class="Nombre_de_clase"</p>
+        <p>Posteriormente, en el archivo .css, se va a referenciar con un "." seguido de lnombre de clase</p>
+        <p>Por Ejemplo:</p>
+        <p>ul class="Lista_de_accesorios"</p>
+        <p>En .css se víncula:</p>
+          <p>.Lista_de_accesorios {</p>
+          <p>color:chocolate</p>
+          <p>}</p>
+
+
+      <li>Selector de ID</li>
+      <li>Selector universal</li>
+      <p>Selecciona todos los elementos, se emplea solo un *, y se va a aplicar a todo lo que contenga mi página</p>
+      <li>Selector de atributo</li>
+
+
+    </ul>
+    
+    <h2>Edición del tamaño de fuente</h2>
+    <p>Para editar el tamaño se emplea "font-size: 00px; </p>
+    <p>px refiere a los pixeles</p>
+
+    <p>Si vamos a aplicar un mismo estilo a diferentes etiquetas, podemos simplemente separar por "," cada etiqueta, y debe ir en renglones separados, y al finalizar se indica el estilo, por ejemplo:</p>
+    <p>h2,</p>
+    <p>ul,</p>
+    <p>ol {</p>
+    <p>    font-size: 20px;</p>
+    <p>}</p>
+<p>Con esto se aplicaria el mismo tamaño de fuente a 3 etiquetas.</p>
+
+<p class="fuentes">
+  Para emplear distintas fuentes, vscode tiene predefinidas algunas familias, las cuales accedemos con las etiquetas "font-family", pero en caso de requerir una, podemos acceder a "fonts.google.com, ahí buscar la fuente deseada y seleccionar el apartado de "view selected families", copiar el "link" y las "CSS rules" en el head del html, y para css las "rules" en "font-family"
+</p>
+
+<h2>Personalizar Imagenes</h2>
+  <p>Propiedad width</p>
+  <p>De la misma manera, si las imagenes tienen clases diferentes, se pueden afectar individual o por grupo </p>
+  
+  <img src="https://tatuajetattoo.com/wp-content/uploads/2020/11/3e48b29b694276562625dd58ce2c55f7-820x1024.jpg" alt="Tatuaje Samurai" class="samurai"></a>
+
+<h2>Bordes en imagenes</h2>
+  <p>Etiquetas</p>
+  <ul>
+    <li>border-width</li>
+    <li>border-color</li>
+    <li>border-style</li><p>solid, none, dotted (punteado), dashed, double, groove, ridge, inset, outset</p>
+    <p>Se pueden personalizar cada lado del borde</p>
+    <p>Para hacerlo, se alternan los valores, si quiero dos atributos escribo: border-style dashed, double; </p>
+    <p>Ejemplo:</p>
+
+    <img src="https://i.ytimg.com/vi/lxSZJ_HwzTI/maxresdefault.jpg" alt="Aqua Konosuba" class="Aqua">
+  </ul>
+
+
+<a href="https://fonts.google.com/specimen/Snippet?preview.text=AMARAN&preview.text" target="_blank" rel="noopener noreferrer">Fuente de AMARAN</a>
+
+
+<h2>Esquinas redondeadas</h2>
+<p>Empleamos la propiedad "border-radius: 00px</p>
+<p>También se puede establecer por porcentaje, ej: 40%</p>
+
+<p>Ejemplo</p>
+
+<img src="https://cdn.beahero.gg/2019/11/darkness-konosuba.jpg" alt="Darkness" class="Darkness">
+
+<h2>Color de Fondo de un "div"</h2>
+  <div>
+    <h4>EJEMPLO</h4>
+      <p class="dentro_div" >Para afectar una clase div, simplemente se menciona el div en nuestro archivo de css, se puede modificar todo mediante atributos, y si queremos delimitar a la última imágen se debe extraer del div</p>
+  </div>
+
+
+<h2 id="id">Aplicar css medinate id</h2>
+  <p>Para vincular los cambios mediante id, empleamos el símbolo #, esto le indica a css que se trata del id, por ejemplo: #Aqua. </p>
+
+<h2>Padding</h2>
+  <p>El padding es la distancia que hay entre el borde de un elemento html y su contenido</p>
+  <div id="Megumin">
+    <img src="https://ramenparados.com/wp-content/uploads/2022/05/357253b92d92161b425687c78154567b1653742862_main.jpeg" alt="Megumin" width="200px">
+   </div>
+  
+  <h2>Padding a cada lado</h2>
+  <div id="Yunyun">
+    <p>Se puede ajustar cada lado del padding, simplemente cambiando a -top,left,right,bottom</p>
+    <img src="https://waifus.wiki/wp-content/uploads/jet-form-builder/252/2022/01/Konosuba-Yunyun.jpg" alt="Yunyun" width="200px">
+  </div>
+
+  <div class="margin">
+    <h2>Margin</h2>
+    <p id="margin">Es la distancia entre elementos</p>
+    <p id="margin">Se emplea el comando "margin:"</p>
+    <p id="margin">Se puede personalizar por cada lado, similar al padding, margin-top, margin-bottom-, margin-right, margin-left, de la misma manera que el padding, se puede modificar en una sola línea, considerando el sentido del reloj para acomodar, por ejemplo</p>
+     <p id="margin">margin top right bottom left;</p>
+    <img src="https://i.blogs.es/d4af5a/konosuba/1366_2000.jpg" alt="Konosuba" width="250px" style="border-color:aqua" style="padding: ;50px">
+  </div>
+
+  <h2>Selectores de atributos</h2>
+
+</body>
+</html>

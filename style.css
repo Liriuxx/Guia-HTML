@@ -1,0 +1,17 @@
+h1 {
+  font-family: 'Snippet', sans-serif;
+  text-align-last: center;
+}
+h2 {
+  color:blueviolet;
+}
+
+h3 {
+ font-size: 25px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: brown;
+}
+
+p {
+  color:rgb(28, 13, 78);
+}
